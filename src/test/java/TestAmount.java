@@ -1,12 +1,11 @@
 import org.junit.Test;
-import org.junit.Assert;
 import ru.netology.service.CashbackHackService;
-
 import static org.junit.Assert.assertEquals;
 
-public class CashbackHackServiceTest {
+public class TestAmount {
+
     @Test
-    public void test_CashbackHackService (){
+    public void test_CashbackHackService() {
         CashbackHackService service = new CashbackHackService();
         int amount = 2000;
 
