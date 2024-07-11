@@ -1,11 +1,10 @@
 import org.testng.annotations.Test;
-import org.testng.annotations.Test;
-import org.testng.Assert;
 import ru.netology.service.CashbackHackService;
-
 import static org.testng.Assert.assertEquals;
 
-public class CashbackHackServiceTest {
+
+public class TestCashbackHackService {
+
     @Test
     public void test() {
         CashbackHackService service = new CashbackHackService();
@@ -15,6 +14,5 @@ public class CashbackHackServiceTest {
         int expected = 500;
 
         assertEquals(expected, actual);
-
     }
 }
